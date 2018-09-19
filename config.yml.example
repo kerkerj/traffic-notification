@@ -1,0 +1,25 @@
+
+telegram:
+  access_token: ""
+  chat_ids:
+    - 1234567
+
+  filters:
+    fliter-1:
+      start_time: "0800"
+      end_time: "1000"
+      direction: "Ns"
+      freeway_id:
+        - "0"
+      expressway_id:
+        - "74"
+
+    fliter-2:
+      start_time: "1730"
+      end_time: "2030"
+      direction: "N"
+      freeway_id:
+        - "0"
+      expressway_id:
+        - "74"
+
